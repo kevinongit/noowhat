@@ -4,8 +4,6 @@ import { Headers, Http } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
 import  { Observable } from 'rxjs/Rx';
 
-import { Movie } from './movie';
-import { MOVIES } from './mock-movies';
 
 @Injectable()
 export class MovieService {
@@ -23,22 +21,6 @@ export class MovieService {
 	private handleError(error: any): Promise<any> {
 		console.error('An error occurred', error);
 		return Promise.reject(error.message || error);
-	}
-
-	private convert(resp) {
-		var obj = resp.json();
-		const boxList = obj.boxOfficeResult.dailyBoxOfficeList;
-		var movieList : Movie[] = [];
-
-		console.log('convert:boxList.length = ' + boxList.length);
-		for (var i=0; i < boxList.length; i++) {
-			var movie: Movie = new Movie();
-			movie.rank = boxList[i].rank;
-			movie.movieName = boxList[i].movieNm;
-			movieList.push(movie);
-		}
-		console.log('convert : movieList.length = ' + movieList.length);
-		return movieList;
 	}
 
 	getMovies() : Observable<any> {
