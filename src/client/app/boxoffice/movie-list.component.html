@@ -1,0 +1,98 @@
+		<h2>Box Office</h2>
+		<div>
+			<label>Movie name:</label> <input #movieName />
+			<button (click)="add(movieName.value); movieName.value=''">
+				Add
+			</button>
+		</div>
+
+
+    <md-list>
+     <h3 md-subheader>Folders</h3>
+     <md-list-item *ngFor="let movie of movies" [class.selected]="movie === selectedMovie" (click)="onSelect(movie)">
+       <!-- <em class="num_ranking"> {{movie.rank}} </em> -->
+
+       
+       <img md-list-avatar width="64" height="64" src="{{movie.thumbnail}}"  alt="{{movie.name}}" />
+       <a  href="{{movie.title[0].link}}">
+         <h3 md-line>{{movie.name}}</h3>
+       </a>
+       <p md-line> sencond line </p>
+
+       <md-divider></md-divider>
+     </md-list-item>
+
+     <md-divider></md-divider>
+   </md-list>
+ <!--  <ul id="rankingList" class="list_ranking">
+    <li *ngFor="let movie of movies" 
+    [class.selected]="movie === selectedMovie"
+    (click)="onSelect(movie)">
+    <div class="inner_ranking"> 
+      <em class="num_ranking"> {{movie.rank}} </em>
+      <a href="{{movie.title[0].link}}" class="link_poster #title">
+        <img src="{{movie.thumbnail}}" width="70" height="100" class="thumb_poster @0" alt="
+        {{movie.name}}" />
+        <div class="content">
+          <h3>{{movie.name}}</h3>
+        </div>
+      </a>
+    </div>
+  </li>
+</ul> -->
+<!-- 
+		<ul class="list-group">
+			<li class="list-group-item" *ngFor="let movie of movies" 
+			 [class.selected]="movie === selectedMovie"
+			 (click)="onSelect(movie)">
+				<span class="badge">{{movie.rank}}</span> 
+				<span>{{movie.name}}</span>
+			</li>
+		</ul> -->
+		<div *ngIf="selectedMovie">
+			<h2>
+				{{selectedMovie.name | uppercase}} is my movie
+			</h2>
+			<!-- <button (click)="gotoDetail()">View Details</button> -->
+      <button class="ui positive button" (click)="gotoDetail()" icon="thumbs up">View Details</button>
+    </div>
+
+<!-- <div ng-cloak layout-gt-sm="row" layout="column">
+
+  <div flex-gt-sm="30" flex>
+
+    <md-toolbar layout="row" class="md-hue-3">
+      <div class="md-toolbar-tools">
+        <span>{{ $ctrl.overall.boxofficeType }}</span>
+      </div>
+    </md-toolbar>
+
+    <md-content>
+      <md-list flex>
+        <md-subheader class="md-no-sticky"> movie box office : {{$ctrl.overall.showRange}} </md-subheader>
+        
+        <md-list-item ui-sref="boxoffice.detail({name: item.movieNm})" class="md-3-line" ng-repeat="item in $ctrl.boxofficeList" ng-click="null">
+          <img ng-src="assets/images/image2.jpg" class="md-avatar" alt="{{item.movieNm}}" />
+          <div class="md-list-item-text" layout="column">
+            <h3>순위 : {{ item.rank }}</h3>
+            <h4>제목 : {{ item.movieNm }}</h4>
+            <p>누적 관객 : {{ item.audiAcc |number }} 명</p>
+            <md-divider ></md-divider>
+          </div>
+        </md-list-item>
+      </md-list>
+    </md-content>
+  </div>
+  <div flex-gt-sm="70" flex>
+
+    <md-toolbar layout="row" class="md-hue-3">
+      <div class="md-toolbar-tools">
+        <span>세부정보</span>
+      </div>
+    </md-toolbar>
+    <md-content>
+    	<ui-view></ui-view>
+    </md-content>
+  </div>
+
+</div> -->
