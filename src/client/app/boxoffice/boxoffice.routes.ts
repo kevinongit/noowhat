@@ -2,12 +2,12 @@ import { Route } from '@angular/router';
 
 
 
-import { MovieListComponent } from './index';
+import { MovieListComponent, MovieDetailComponent } from './index';
+
 
 export const BoxofficeRoutes: Route[] = [
   	{
-    	path: 'boxoffice',
-    	component: MovieListComponent
+    	path: 'boxoffice', component: MovieListComponent	
     	// children: [
 	    // 	...HomeRoutes,
 	    // 	...ChartRoutes,
@@ -18,5 +18,6 @@ export const BoxofficeRoutes: Route[] = [
      //    ...GridRoutes,
      //    ...BSElementRoutes
     	// ]
-  	}
+  	},
+	{ path: 'boxoffice/:rank', component: MovieDetailComponent }
 ];

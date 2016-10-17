@@ -28,6 +28,15 @@ export class MovieService {
 		// });
 	}
 
+	getOneMovie(rank:string) : any {
+		let movies = MOVIE_LIST.movies;
+		
+		return movies.filter(item => item.rank === rank);
+		// return this.getMovies().subscribe(movieList => {
+		// 	let arr : Array<any> =  (movieList.movies) as Array<any>;
+		// 	arr.filter(item => item.rank === rank);});
+	}
+
 	private handleError(error: any): Promise<any> {
 		console.error('An error occurred', error);
 		return Promise.reject(error.message || error);
@@ -37,7 +46,6 @@ export class MovieService {
 		console.log('service : getMovies()');
 		return this.http.get(this.moviesUrl)
 				 .map(response => response.json());
-		
 	}
 
 	_getMovieDetail(name: string) : Observable<any> {

@@ -6,15 +6,15 @@ import { MovieService } from './movie.service';
 // import { Movie } from './movie';
 
 @Component({
-	
+	moduleId: module.id,
 	selector: 'my-movie-detail',
-	template: './movie-detail.component.html'
+	templateUrl: 'movie-detail.component.html'
 	// styleUrls: [ require('./movie-detail.component.css').toString() ]
 })
 export class MovieDetailComponent implements OnInit {
 	// @Input() movie: Movie;
 	// movieDetail = null;
-
+	movieDetail : any = null;
 	constructor(
 		private movieService: MovieService,
 		private route: ActivatedRoute,
@@ -24,9 +24,11 @@ export class MovieDetailComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		// this.route.params.forEach((params: Params) => {
-		// 	let movieName = params['movieName'];
-		// 	console.log('movieName : ' + movieName);
+		this.route.params.forEach((params: Params) => {
+			let rank = params['rank'];
+			console.log('rank : ' + rank);
+			this.movieDetail = this.movieService.getOneMovie(rank);
+			console.log('Movie Detail : ' + JSON.stringify(this.movieDetail));
 		// 	this.movieService.getMovieDetail(movieName)
 		// 		.subscribe(resp => {
 		// 		  console.log('inside subscribe');
@@ -35,7 +37,8 @@ export class MovieDetailComponent implements OnInit {
 		// 		});
 		// 	console.log('ngOnInit');
 		// 	// this.movieServie.getMovie(id)
-		// });
+		// 
+		});
 	}
 
 	goBack(): void {

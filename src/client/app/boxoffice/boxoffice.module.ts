@@ -6,6 +6,7 @@ import { ModalModule } from 'ng2-bootstrap/ng2-bootstrap';
 
 
 import { MovieListComponent } from './movie-list.component';
+import { MovieDetailComponent } from './movie-detail.component';
 import { MovieService } from './movie.service'
 
 // import {TopNavComponent} from '../shared/index';
@@ -19,9 +20,9 @@ import { MovieService } from './movie.service'
     	DropdownModule,
         ModalModule,
     ],
-    declarations: [MovieListComponent],
+    declarations: [MovieListComponent, MovieDetailComponent],
     providers: [MovieService],
-    exports: [MovieListComponent]
+    exports: [MovieListComponent, MovieDetailComponent]
 })
 
 export class BoxofficeModule { }

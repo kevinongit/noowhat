@@ -15,13 +15,13 @@
 
    <div class="media" *ngFor="let movie of movies">
     <div class="media-left media-middle">
-      <a href="#">
+      <a [routerLink]="['/boxoffice', movie.rank]">
         <img class="media-object" width="64" height="64" src="{{movie.thumbnail}}"  alt="{{movie.name}}">
       </a>
     </div>
     <div class="media-body">
-      <h4 class="media-heading">{{movie.name}}</h4>
-        <p>{{movie.openDay}}</p>
-        <p>{{movie.story}}</p>
+      <h4 class="media-heading">{{movie.name}} ({{movie.engName}})</h4>
+        <p> 평점 : </p>
+        <p>개봉일 : {{movie.openDay}}</p>
     </div>
   </div>

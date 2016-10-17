@@ -16,26 +16,26 @@
     <h3> 영화 상세 정보 (from daum) </h3>
 
     <ul class="movie-detail">
-      <li> 
+      <!--<li> 
         <a href="{{movieDetail.title[0].link}}"> {{movieDetail.title[0].content}} </a> 
-        ({{movieDetail.eng_title[0].content}}, {{movieDetail.year[0].content}})
-      </li>
+        ({{movieDetail.engTitle}}, {{movieDetail.year}})
+      </li>-->
       <li> 
         <span *ngFor="let genre of movieDetail.genre"> {{genre.content}} {{last ? '' : ', '}} </span>
       </li>
-      <li> {{movieDetail.open_info[0].content}} 개봉 </li>
-      <li> {{movieDetail.open_info[2].content}}, {{movieDetail.open_info[1].content}} </li>
+      <li> {{movieDetail.openDay}} 개봉 </li>
+      
       <li>  
         <span *ngFor="let actor of movieDetail.actor"> 
           <a href="{{actor.link}}"> {{actor.content}} </a> {{last ? '' : ', '}} 
         </span>
       </li>
-      <li> 평점 : {{movieDetail.grades[0].content}} </li>
+      <li> 평점 : ... </li>
       <li> 스토리 : <br>
-        {{movieDetail.story[0].content}} 
+        {{movieDetail.story}} 
       </li>
       <li>
-        <img src="{{movieDetail.thumbnail[0].content}}" />
+        <img src="{{movieDetail.thumbnail}}" />
 
         <!-- <div style="height: 305px;width: 250px">
           <div uib-carousel active="active" interval="2000" no-wrap="noWrapSlides">
