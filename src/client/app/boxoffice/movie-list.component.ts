@@ -6,9 +6,9 @@ import { Router } from '@angular/router';
 import { MovieService } from './movie.service';
 
 @Component({
-	// moduleId: module.id,
+	moduleId: module.id,
     selector: 'movie-list',
-    template: './movie.component.html'
+    templateUrl: 'movie-list.component.html'
   	// styleUrls: [ require('./movies.component.css').toString() 
 })
 export class MovieListComponent implements OnInit {

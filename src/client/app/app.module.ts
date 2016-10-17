@@ -10,6 +10,7 @@ import { LoginModule } from './login/login.module';
 import { SignupModule } from './signup/signup.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { SharedModule } from './shared/shared.module';
+import { BoxofficeModule } from './boxoffice/boxoffice.module';
 
 @NgModule({
 	imports: [
@@ -19,6 +20,7 @@ import { SharedModule } from './shared/shared.module';
 		LoginModule,
 		SignupModule,
 		DashboardModule,
+		BoxofficeModule,
 		SharedModule.forRoot()
 	],
 	declarations: [AppComponent],

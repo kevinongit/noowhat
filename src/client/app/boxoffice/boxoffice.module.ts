@@ -6,9 +6,10 @@ import { ModalModule } from 'ng2-bootstrap/ng2-bootstrap';
 
 
 import { MovieListComponent } from './movie-list.component';
+import { MovieService } from './movie.service'
 
-import {TopNavComponent} from '../shared/index';
-import {SidebarComponent} from '../shared/index';
+// import {TopNavComponent} from '../shared/index';
+// import {SidebarComponent} from '../shared/index';
 
 
 @NgModule({
@@ -18,8 +19,9 @@ import {SidebarComponent} from '../shared/index';
     	DropdownModule,
         ModalModule,
     ],
-    declarations: [MovieListComponent, TopNavComponent, SidebarComponent],
-    exports: [MovieListComponent, TopNavComponent, SidebarComponent]
+    declarations: [MovieListComponent],
+    providers: [MovieService],
+    exports: [MovieListComponent]
 })
 
 export class BoxofficeModule { }
