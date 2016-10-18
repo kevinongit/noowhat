@@ -16,10 +16,10 @@
     <h3> 영화 상세 정보 (from daum) </h3>
 
     <ul class="movie-detail">
-      <!--<li> 
+      <li> 
         <a href="{{movieDetail.title[0].link}}"> {{movieDetail.title[0].content}} </a> 
         ({{movieDetail.engTitle}}, {{movieDetail.year}})
-      </li>-->
+      </li>
       <li> 
         <span *ngFor="let genre of movieDetail.genre"> {{genre.content}} {{last ? '' : ', '}} </span>
       </li>

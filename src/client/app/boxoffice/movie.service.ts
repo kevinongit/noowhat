@@ -31,7 +31,7 @@ export class MovieService {
 	getOneMovie(rank:string) : any {
 		let movies = MOVIE_LIST.movies;
 		
-		return movies.filter(item => item.rank === rank);
+		return movies.filter(item => item.rank === rank)[0];
 		// return this.getMovies().subscribe(movieList => {
 		// 	let arr : Array<any> =  (movieList.movies) as Array<any>;
 		// 	arr.filter(item => item.rank === rank);});
