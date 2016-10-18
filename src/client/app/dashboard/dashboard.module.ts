@@ -13,11 +13,11 @@ import { GridModule } from './grid/grid.module';
 import { BSComponentModule } from './bs-component/bsComponent.module';
 import { BSElementModule } from './bs-element/bsElement.module';
 
+import { SharedModule } from '../shared/shared.module';
+
 import { DashboardComponent } from './dashboard.component';
 
-import {TopNavComponent} from '../shared/index';
-import {SidebarComponent} from '../shared/index';
-
+import {TopNavComponent, SidebarComponent } from '../shared/index';
 
 @NgModule({
     imports: [
@@ -32,10 +32,11 @@ import {SidebarComponent} from '../shared/index';
         GridModule,
     	BSComponentModule,
         BSElementModule,
-        BlankPageModule
+        BlankPageModule,
+        SharedModule
     ],
-    declarations: [DashboardComponent, TopNavComponent, SidebarComponent],
-    exports: [DashboardComponent, TopNavComponent, SidebarComponent]
+    declarations: [DashboardComponent],
+    exports: [DashboardComponent]
 })
 
 export class DashboardModule { }

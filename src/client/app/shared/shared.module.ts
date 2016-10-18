@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { NameListService } from './name-list/index';
+import { TopNavComponent, SidebarComponent } from './index';
 
 /**
 * Do not specify providers for modules that might be imported by a lazy loaded module.
@@ -11,8 +12,8 @@ import { NameListService } from './name-list/index';
 
 @NgModule({
     imports: [CommonModule, RouterModule],
-    declarations: [],
-    exports: [CommonModule, FormsModule, RouterModule]
+    declarations: [TopNavComponent, SidebarComponent],
+    exports: [CommonModule, FormsModule, RouterModule, TopNavComponent, SidebarComponent]
 })
 
 export class SharedModule {
