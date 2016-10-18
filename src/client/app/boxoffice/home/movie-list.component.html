@@ -1,6 +1,4 @@
-<top-nav></top-nav>
-<sidebar-cmp></sidebar-cmp>
-<section class="main-container" [ngClass]="{sidebarPushRight: isActive}">	
+
 	<!--<router-outlet></router-outlet>-->
 
 
@@ -24,7 +22,7 @@
       <em> {{movie.rank}} </em>
     </div>
     <div class="media-left media-middle">
-      <a [routerLink]="['/boxoffice', movie.rank]">
+      <a [routerLink]="['/boxoffice/home', movie.rank]">
         <img class="media-object" width="70" height="100" src="{{movie.thumbnail}}"  alt="{{movie.name}}">
       </a>
     </div>
@@ -34,6 +32,3 @@
         <p>개봉일 : {{movie.openDay}}</p>
     </div>
   </div>
-
-
-</section>

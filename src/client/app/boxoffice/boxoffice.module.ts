@@ -6,14 +6,10 @@ import { ModalModule } from 'ng2-bootstrap/ng2-bootstrap';
 
 import { SharedModule } from '../shared/shared.module';
 
-import { MovieListComponent } from './movie-list.component';
-import { MovieDetailComponent } from './movie-detail.component';
-import { MovieService } from './movie.service'
+import { BoxofficeComponent } from './boxoffice.component';
+import { HomeModule } from './home/home.module';
 
 import {TopNavComponent, SidebarComponent } from '../shared/index';
-
-// import {TopNavComponent} from '../shared/index';
-// import {SidebarComponent} from '../shared/index';
 
 
 @NgModule({
@@ -22,11 +18,11 @@ import {TopNavComponent, SidebarComponent } from '../shared/index';
     	RouterModule,
     	DropdownModule,
         ModalModule,
-        SharedModule
+        SharedModule,
+        HomeModule
     ],
-    declarations: [MovieListComponent, MovieDetailComponent],
-    providers: [MovieService],
-    exports: [MovieListComponent, MovieDetailComponent]
+    declarations: [BoxofficeComponent],
+    exports: [BoxofficeComponent]
 })
 
 export class BoxofficeModule { }
