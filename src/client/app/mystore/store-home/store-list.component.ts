@@ -9,8 +9,8 @@ import { Product } from './product';
 @Component({
 	moduleId: module.id,
     selector: 'store-list',
-    templateUrl: 'store-list.component.html'
-  	// styleUrls: [ require('./movies.component.css').toString() 
+    templateUrl: 'store-list.component.html',
+  	styleUrls: [ 'store-list.component.css' ] 
 })
 export class StoreListComponent implements OnInit {
 	products : Product[];
