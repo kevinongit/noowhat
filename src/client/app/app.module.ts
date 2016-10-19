@@ -11,6 +11,7 @@ import { SignupModule } from './signup/signup.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { SharedModule } from './shared/shared.module';
 import { BoxofficeModule } from './boxoffice/boxoffice.module';
+import { MystoreModule } from './mystore/mystore.module';
 
 @NgModule({
 	imports: [
@@ -21,6 +22,7 @@ import { BoxofficeModule } from './boxoffice/boxoffice.module';
 		SignupModule,
 		DashboardModule,
 		BoxofficeModule,
+		MystoreModule,
 		SharedModule.forRoot()
 	],
 	declarations: [AppComponent],

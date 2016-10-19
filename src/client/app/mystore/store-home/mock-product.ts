@@ -1,0 +1,46 @@
+
+export const PRODUCT_LIST = 
+[
+    {
+        "id" : 1,
+        "name" : "product_name1",
+        "desc" : "product description",
+        "image" : "asset/images/w1.jpg"
+    },
+    {
+        "id" : 2,
+        "name" : "product_name2",
+        "desc" : "product description",
+        "image" : "asset/images/w1.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "product_name3",
+        "desc" : "product description",
+        "image" : "asset/images/w1.jpg"
+    },
+    {
+        "id" : 4,
+        "name" : "product_name4",
+        "desc" : "product description",
+        "image" : "asset/images/w1.jpg"
+    },
+    {
+        "id" : 5,
+        "name" : "product_name5",
+        "desc" : "product description",
+        "image" : "asset/images/w1.jpg"
+    },
+    {
+        "id" : 6,
+        "name" : "product_name6",
+        "desc" : "product description",
+        "image" : "asset/images/w1.jpg"
+    },
+    {
+        "id" : 7,
+        "name" : "product_name7",
+        "desc" : "product description",
+        "image" : "asset/images/w1.jpg"
+    }
+];
