@@ -23,7 +23,7 @@ export class StoreService {
 
 	getOneProduct(id:number) : Product {
 		let products = PRODUCT_LIST;
-		
+
 		return products.filter(item => item.id === id)[0];
 	}
 

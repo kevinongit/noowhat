@@ -6,7 +6,7 @@ export const StoreHomeRoutes: Route[] = [
     	path: 'home',
     	component: StoreListComponent
   	},
-	{ 
+	{
 		path: 'home/:id',
 		component: StoreDetailComponent
 	}

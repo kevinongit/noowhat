@@ -4,7 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
-html, body{
+/*html, body{
 	font-family: 'Roboto', sans-serif;
     font-size: 100%;
   	overflow-x: hidden;
@@ -38,7 +38,7 @@ a {
   color: #008DE7;
   font-weight:400;
 }
-a:hover { transition: all 200ms ease-in-out; }
+a:hover { transition: all 200ms ease-in-out; }*/
 
 .page-container {
   min-width: 1260px;
@@ -1273,7 +1273,7 @@ table th:first-child {
 .fn-gantt .navigate a:link, .fn-gantt .navigate a:visited, .fn-gantt .navigate a:active {
     text-decoration: none;
 }
-.fn-gantt .nav-link {
+/*.fn-gantt .nav-link {
     margin: 0 3px 0 0;
     display: inline-block;
     width: 20px;
@@ -1297,7 +1297,7 @@ table th:first-child {
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.25) inset, 0 1px 0 #FFF;
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.25) inset, 0 1px 0 #FFF;
     box-shadow: 0 1px 1px rgba(0,0,0,0.25) inset, 0 1px 0 #FFF;
-}
+}*/
 .fn-gantt .navigate .nav-page-back {
     background-position: 1px 0 !important;
     margin: 0;
@@ -2585,7 +2585,7 @@ i.phone {
   width: 19px;
   height: 21px;
   display: inline-block;
-  background: url(../images/img-sprite.png) no-repeat -235px -39px;
+  background: url(assets/images/img-sprite.png) no-repeat -235px -39px;
   vertical-align: middle;
   margin-right: 0.5em;
 }
@@ -2593,7 +2593,7 @@ i.add {
   width: 17px;
   height: 24px;
   display: inline-block;
-  background: url(../images/img-sprite.png) no-repeat -236px -11px;
+  background: url(assets/images/img-sprite.png) no-repeat -236px -11px;
   vertical-align: middle;
   margin-right: 0.5em;
 }
@@ -2601,7 +2601,7 @@ i.mail {
   width: 17px;
   height: 14px;
   display: inline-block;
-  background: url(../images/img-sprite.png) no-repeat -236px -76px;
+  background: url(assets/images/img-sprite.png) no-repeat -236px -76px;
   margin-right: 0.5em;
 }
 .our-st li {
@@ -2769,52 +2769,52 @@ ul.grid_2 li {
 i.facebok {
   width: 35px;
   height: 35px;
-  background: url(../images/img-sprite.png)no-repeat -8px -10px;
+  background: url(assets/images/img-sprite.png)no-repeat -8px -10px;
   float: left;
   vertical-align: middle;
 }
 i.facebok:hover{
-  background: url(../images/img-sprite.png)no-repeat -8px -46px;
+  background: url(assets/images/img-sprite.png)no-repeat -8px -46px;
 }
 i.twiter {
   width: 35px;
   height: 35px;
-  background: url(../images/img-sprite.png)no-repeat -48px -12px;
+  background: url(assets/images/img-sprite.png)no-repeat -48px -12px;
   float: left;
   vertical-align: middle;
 }
 i.twiter:hover{
-  background: url(../images/img-sprite.png)no-repeat -48px -48px;
+  background: url(assets/images/img-sprite.png)no-repeat -48px -48px;
 }
 i.be {
   width: 35px;
   height: 35px;
-  background: url(../images/img-sprite.png)no-repeat -133px -10px;
+  background: url(assets/images/img-sprite.png)no-repeat -133px -10px;
   float: left;
   vertical-align: middle;
 }
 i.be:hover{
-  background: url(../images/img-sprite.png)no-repeat -133px -46px;
+  background: url(assets/images/img-sprite.png)no-repeat -133px -46px;
 }
 i.pp {
   width: 35px;
   height: 35px;
-  background: url(../images/img-sprite.png)no-repeat -177px -9px;
+  background: url(assets/images/img-sprite.png)no-repeat -177px -9px;
   float: left;
   vertical-align: middle;
 }
 i.pp:hover{
-  background: url(../images/img-sprite.png)no-repeat -177px -45px;
+  background: url(assets/images/img-sprite.png)no-repeat -177px -45px;
 }
 i.goog {
   width: 35px;
   height: 35px;
-  background: url(../images/img-sprite.png)no-repeat -92px -13px;
+  background: url(assets/images/img-sprite.png)no-repeat -92px -13px;
   float: left;
   vertical-align: middle;
 }
 i.goog:hover{
-  background: url(../images/img-sprite.png)no-repeat -92px -48px;
+  background: url(assets/images/img-sprite.png)no-repeat -92px -48px;
 }
 .social-ic ul {
   padding: 0;
@@ -3045,7 +3045,7 @@ span.brand {
     background-color: #252525 !important;
     border-color: #252525 !important;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+/*.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #b52e31 !important;
     border-color: #b52e31 !important;
@@ -3059,7 +3059,7 @@ span.brand {
     color: #fff;
     background-color: #252525 !important;
     border-color: #252525 !important;
-}
+}*/
 .validation-grids .btn-primary{
     background:#B52E31 !important;
     color: #FFF;

@@ -12,12 +12,12 @@ const NUM_OF_COLUMN =4;
 	moduleId: module.id,
     selector: 'store-list',
     templateUrl: 'store-list.component.html',
-  	styleUrls: [ 'store-list.component.css' ] 
+  	styleUrls: [ 'store-list.component.css' ]
 })
 export class StoreListComponent implements OnInit {
 	products : Product[];
 	products2 : any[];
-	
+
 	constructor(
 		private router: Router,
 		private storeService : StoreService) {
