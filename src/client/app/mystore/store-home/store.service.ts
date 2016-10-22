@@ -10,20 +10,19 @@ import { PRODUCT_LIST } from './mock-product';
 
 @Injectable()
 export class StoreService {
-
-
+	
 	constructor(private http: Http) {
-
 	}
 
-	getProducts() : Observable<Product[]> {
+	getProducts(): Observable<Product[]> {
 		console.log(' # of PRODUCT : ' + PRODUCT_LIST.length);
 		return Observable.of(PRODUCT_LIST);
 	}
 
-	getOneProduct(id:number) : Product {
+	getOneProduct(id: number): Product {
 		let products = PRODUCT_LIST;
 
+		console.log('StoreService.getOneProduct : id = ' + id + ', #PRODUCTLIST = ' + PRODUCT_LIST.length);
 		return products.filter(item => item.id === id)[0];
 	}
 

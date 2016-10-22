@@ -15,6 +15,7 @@ const NUM_OF_COLUMN =4;
   	styleUrls: [ 'store-list.component.css' ]
 })
 export class StoreListComponent implements OnInit {
+	numberOfProducts: number = 0;
 	products : Product[];
 	products2 : any[];
 
@@ -28,7 +29,9 @@ export class StoreListComponent implements OnInit {
 		this.getProducts();
 	}
 
-	convertDimension(one: Product[]) {
+	convertDimension(oneOrg: Product[]) {
+		// Important : Shallow copy enough for now.
+		let one : Product[] = oneOrg.slice(0);
 		while(one.length > 0) {
 			this.products2.push(one.splice(0,NUM_OF_COLUMN));
 		}
@@ -42,6 +45,7 @@ export class StoreListComponent implements OnInit {
 				 	console.log('in subscribe');
 				 	this.products = products;
 				 	console.log('products.length = ' + this.products.length);
+					this.numberOfProducts = this.products.length;
 					this.convertDimension(this.products);
 				 });
 		console.log('in getMovies()');

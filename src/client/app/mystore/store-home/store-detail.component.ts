@@ -28,7 +28,7 @@ export class StoreDetailComponent implements OnInit {
 			let id = params['id'];
 			console.log('id : ' + id);
 			this.productDetail = this.storeService.getOneProduct(id);
-			console.log('Movie Detail : ' + JSON.stringify(this.productDetail));
+			console.log('Product Detail : ' + JSON.stringify(this.productDetail));
 
 		});
 	}

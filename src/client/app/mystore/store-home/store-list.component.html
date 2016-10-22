@@ -7,7 +7,7 @@
 
    <div class="w_content">
 		<div class="women">
-			<a href="#"><h4>Enthecwear - <span>4449 items</span> </h4></a>
+			<a href="#"><h4> 카테고리 항목 - <span>{{numberOfProducts}} 개 </span> </h4></a>
 			<ul class="w_nav">
 						<li>Sort : </li>
 		     			<li><a class="active" href="#">popular</a></li> |
@@ -22,14 +22,14 @@
 	    <div class="grids_of_4" *ngFor="let items of products2">
 		  <div class="grid1_of_4" *ngFor="let item of items">
 			 <div class="content_box">
-					<a href="details.html">
+					<a [routerLink]="['/mystore/home', item.id]">
 			   	   	 <img src="{{item.image}}" class="img-responsive" alt="">
 				   	</a>
-				    <h4><a href="details.html"> {{item.name}} </a></h4>
+				    <h4><a [routerLink]="['/mystore/home', item.id]"> {{item.name}} </a></h4>
 				     <p>{{item.desc}}</p>
 					 <div class="grid_1 simpleCart_shelfItem">
-					   <div class="item_add"><span class="item_price"><h6>ONLY $99.00</h6></span></div>
-					   <div class="item_add"><span class="item_price"><a href="#">add to cart</a></span></div>
+					   <div class="item_add"><span class="item_price"><h6>특별가 {{item.price}} 원 </h6></span></div>
+					   <div class="item_add"><span class="item_price"><a href="#">담기</a></span></div>
 					 </div>
 			 </div>
 		  </div>
