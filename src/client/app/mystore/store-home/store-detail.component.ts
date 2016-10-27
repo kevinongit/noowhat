@@ -8,13 +8,13 @@ import { Product } from './product';
 @Component({
 	moduleId: module.id,
 	selector: 'store-detail',
-	templateUrl: 'store-detail.component.html'
-	// styleUrls: [ require('./movie-detail.component.css').toString() ]
+	templateUrl: 'store-detail.component.html',
+	styleUrls: [ 'store-list.component.css' ]
 })
 export class StoreDetailComponent implements OnInit {
 	// @Input() movie: Movie;
 	// movieDetail = null;
-	productDetail : Product = null;
+	product : Product = null;
 	constructor(
 		private storeService: StoreService,
 		private route: ActivatedRoute,
@@ -27,8 +27,8 @@ export class StoreDetailComponent implements OnInit {
 		this.route.params.forEach((params: Params) => {
 			let id = params['id'];
 			console.log('id : ' + id);
-			this.productDetail = this.storeService.getOneProduct(id);
-			console.log('Product Detail : ' + JSON.stringify(this.productDetail));
+			this.product = this.storeService.getOneProduct(id);
+			console.log('Product Detail : ' + JSON.stringify(this.product));
 
 		});
 	}

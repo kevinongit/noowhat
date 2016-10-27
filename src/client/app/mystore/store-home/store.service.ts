@@ -23,7 +23,10 @@ export class StoreService {
 		let products = PRODUCT_LIST;
 
 		console.log('StoreService.getOneProduct : id = ' + id + ', #PRODUCTLIST = ' + PRODUCT_LIST.length);
-		return products.filter(item => item.id === id)[0];
+		// return products.filter(item => item.id === id)[0];
+		let product = products.filter(item => item.id == id)[0];
+		console.log('one product : ' + JSON.stringify(product));
+		return product;
 	}
 
 	private handleError(error: any): Promise<any> {

@@ -9,6 +9,7 @@ export const PRODUCT_LIST =
         'price' : 10000,
         'brand' : 'A Company',
         'code' : 'P0001',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -19,6 +20,7 @@ export const PRODUCT_LIST =
         'price' : 23000,
         'brand' : 'A Company',
         'code' : 'P0234',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -29,6 +31,7 @@ export const PRODUCT_LIST =
         'price' : 90000,
         'brand' : 'A Company',
         'code' : 'P0123',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -39,6 +42,7 @@ export const PRODUCT_LIST =
         'price' : 55000,
         'brand' : 'CC Company',
         'code' : 'P2301',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -49,6 +53,7 @@ export const PRODUCT_LIST =
         'price' : 56700,
         'brand' : 'A Company',
         'code' : 'P0341',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -59,6 +64,7 @@ export const PRODUCT_LIST =
         'price' : 66000,
         'brand' : 'SSS Fashion',
         'code' : 'P0090',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -69,6 +75,7 @@ export const PRODUCT_LIST =
         'price' : 5000,
         'brand' : 'A Company',
         'code' : 'P0771',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -79,6 +86,7 @@ export const PRODUCT_LIST =
         'price' : 990000,
         'brand' : 'Too Expensive Company',
         'code' : 'P9901',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -89,6 +97,7 @@ export const PRODUCT_LIST =
         'price' : 5500,
         'brand' : 'Cheap Company',
         'code' : 'P1041',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -99,6 +108,7 @@ export const PRODUCT_LIST =
         'price' : 99000,
         'brand' : 'Sale & Buy',
         'code' : 'P7001',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     },
     {
@@ -109,6 +119,7 @@ export const PRODUCT_LIST =
         'price' : 35000,
         'brand' : 'Noodles',
         'code' : 'P0005',
+        'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
         'detail' : '이 상품의 디테일한 정보입니다.'
     }
 ];

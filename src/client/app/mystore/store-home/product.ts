@@ -6,6 +6,7 @@ export class Product {
 	price: number;
 	brand: string;
 	code: string;
+	imgs: string[];
 	detail: string;
 	// relatedProducts: string[];
 }

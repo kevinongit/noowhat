@@ -35,6 +35,7 @@ export class StoreListComponent implements OnInit {
 		while(one.length > 0) {
 			this.products2.push(one.splice(0,NUM_OF_COLUMN));
 		}
+		console.log('products.length :' + this.products.length);
 		console.log('products2.length :' + this.products2.length);
 	}
 
@@ -48,7 +49,7 @@ export class StoreListComponent implements OnInit {
 					this.numberOfProducts = this.products.length;
 					this.convertDimension(this.products);
 				 });
-		console.log('in getMovies()');
+		console.log('in getProducts()');
 	}
 
 }
