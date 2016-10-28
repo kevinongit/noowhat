@@ -23,7 +23,7 @@
 		  <div class="grid1_of_4" *ngFor="let item of items">
 			 <div class="content_box">
 					<a [routerLink]="['/mystore/home', item.id]">
-			   	   	 <img src="{{item.image}}" class="img-responsive" alt="">
+			   	   	 <img src="{{item.image}}" class="img-fluid" alt="">
 				   	</a>
 				    <h4><a [routerLink]="['/mystore/home', item.id]"> {{item.name}} </a></h4>
 				     <p>{{item.desc}}</p>
