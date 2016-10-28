@@ -8,7 +8,7 @@ export class Product {
 	code: string;
 	imgs: string[];
 	detail: string;
-	// relatedProducts: string[];
+	related: any[];
 }
 
 

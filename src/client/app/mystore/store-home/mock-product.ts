@@ -10,7 +10,21 @@ export const PRODUCT_LIST =
         'brand' : 'A Company',
         'code' : 'P0001',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 2,
@@ -21,7 +35,21 @@ export const PRODUCT_LIST =
         'brand' : 'A Company',
         'code' : 'P0234',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 3,
@@ -32,7 +60,21 @@ export const PRODUCT_LIST =
         'brand' : 'A Company',
         'code' : 'P0123',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 4,
@@ -43,7 +85,21 @@ export const PRODUCT_LIST =
         'brand' : 'CC Company',
         'code' : 'P2301',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 5,
@@ -54,7 +110,21 @@ export const PRODUCT_LIST =
         'brand' : 'A Company',
         'code' : 'P0341',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 6,
@@ -65,7 +135,21 @@ export const PRODUCT_LIST =
         'brand' : 'SSS Fashion',
         'code' : 'P0090',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 7,
@@ -76,7 +160,21 @@ export const PRODUCT_LIST =
         'brand' : 'A Company',
         'code' : 'P0771',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 8,
@@ -87,7 +185,21 @@ export const PRODUCT_LIST =
         'brand' : 'Too Expensive Company',
         'code' : 'P9901',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 9,
@@ -98,7 +210,21 @@ export const PRODUCT_LIST =
         'brand' : 'Cheap Company',
         'code' : 'P1041',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 10,
@@ -109,7 +235,21 @@ export const PRODUCT_LIST =
         'brand' : 'Sale & Buy',
         'code' : 'P7001',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     },
     {
         'id' : 11,
@@ -120,6 +260,20 @@ export const PRODUCT_LIST =
         'brand' : 'Noodles',
         'code' : 'P0005',
         'imgs' : [ 'assets/images/d1.jpg', 'assets/images/d2.jpg', 'assets/images/d3.jpg', 'assets/images/d4.jpg' ],
-        'detail' : '이 상품의 디테일한 정보입니다.'
+        'detail' : '이 상품의 디테일한 정보입니다.',
+        'related' : [
+            {
+                'id' : 2,
+                'name' : 'product_name2',
+                'image' : 'assets/images/w2.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            },
+            {
+                'id' : 4,
+                'name' : 'product_name4',
+                'image' : 'assets/images/w4.jpg',
+                'detail' : '이 상품의 디테일한 정보입니다.'
+            }
+        ]
     }
 ];
