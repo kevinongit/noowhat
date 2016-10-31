@@ -12,7 +12,8 @@ const NUM_OF_COLUMN =4;
 	moduleId: module.id,
     selector: 'store-list',
     templateUrl: 'store-list.component.html',
-  	styleUrls: [ 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', 'store-list.component.css' ]
+	styleUrls: [ 'store-list.component.css' ]
+  	// styleUrls: [ 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', 'store-list.component.css' ]
 })
 export class StoreListComponent implements OnInit {
 	numberOfProducts: number = 0;

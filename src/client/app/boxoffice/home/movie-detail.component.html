@@ -18,16 +18,16 @@
     <ul class="movie-detail">
       <li> 
         <a href="{{movieDetail.title[0].link}}"> {{movieDetail.title[0].content}} </a> 
-        ({{movieDetail.engTitle}}, {{movieDetail.year}})
+        ({{movieDetail.engName}}, {{movieDetail.year}})
       </li>
       <li> 
-        <span *ngFor="let genre of movieDetail.genre"> {{genre.content}} {{last ? '' : ', '}} </span>
+        <span *ngFor="let genre of movieDetail.genre; let isLast=last"> {{genre.content}} {{isLast ? '' : ', '}} </span>
       </li>
       <li> {{movieDetail.openDay}} 개봉 </li>
       
       <li>  
-        <span *ngFor="let actor of movieDetail.actor"> 
-          <a href="{{actor.link}}"> {{actor.content}} </a> {{last ? '' : ', '}} 
+        <span *ngFor="let actor of movieDetail.actor; let isLast=last"> 
+          <a href="{{actor.link}}"> {{actor.content}} </a> {{isLast ? '' : ', '}} 
         </span>
       </li>
       <li> 평점 : ... </li>

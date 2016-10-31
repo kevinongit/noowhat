@@ -21,9 +21,9 @@
     <div class="media-left">
       <em> {{movie.rank}} </em>
     </div>
-    <div class="media-left media-middle">
+    <div class="media-left media-middle" style="left-padding=10px; right-padding=20px">
       <a [routerLink]="['/boxoffice/home', movie.rank]">
-        <img class="media-object" width="70" height="100" src="{{movie.thumbnail}}"  alt="{{movie.name}}">
+        <img class="media-object" width="80" height="120"  src="{{movie.thumbnail}}"  alt="{{movie.name}}">
       </a>
     </div>
     <div class="media-body">
