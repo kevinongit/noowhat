@@ -1,0 +1,258 @@
+[
+	{
+		"phrase" : "a hot potato",
+		"desc" : "speak of an issue (mostly current) which many people are talking about and which is usually disputed"
+	},
+	{
+		"phrase" : "a peeny for your thoughts",
+		"desc" : "a way of asking what someone is thinking"
+	},
+	{
+		"phrase" : "actions speak louder than words",
+		"desc" : "people's intention can be judged better by what they do than what they say"
+	},
+	{
+		"phrase" : "add insult to injury",
+		"desc" : "to further a loss with mockery or indignity; to worsen an unfavorable situation"
+	},
+	{
+		"phrase" : "an arm and a leg",
+		"desc" : "very expensive of costly. a large amount of money"
+	},
+	{
+		"phrase" : "at the drop of a hat",
+		"desc" : "without any hesitation; instantly"
+	},
+	{
+		"phrase" : "back to the drawing board",
+		"desc" : "when an attempt fails, and it's time to start all over"
+	},
+	{
+		"phrase" : "the ball is in your court",
+		"desc" : "it is up to you to make the next decision or step"
+	},
+	{
+		"phrase" : "barking up the wrong tree",
+		"desc" : "looking in the wrong place. accusing the wrong person"
+	},
+	{
+		"phrase" : "beat around the bush",
+		"desc" : "avoiding the main topic. not speaking directly about the issue"
+	},
+	{
+		"phrase" : "best thing since sliced bread",
+		"desc" : "a good invention or innovation. a good idear or plan"
+	},
+	{
+		"phrase" : "bite off more than you can chew",
+		"desc" : "to take on a task that is way to big"
+	},
+	{
+		"phrase" : "can't judge a book by its cover",
+		"desc" : "can't judge something primarily on appearance"
+	},
+	{
+		"phrase" : "caught between two stools",
+		"desc" : "when someone finds it difficult to choose between two alternatives"
+	},
+	{
+		"phrase" : "cross that bridge when you come to it",
+		"desc" : "deal with a problem if and when it becomes necessary, not before"
+	},
+	{
+		"phrase" : "curiosity kill the cat",
+		"desc" : "being inquisitive can lead you into an unpleasant situation"
+	},
+	{
+		"phrase" : "cut corners",
+		"desc" : "when something is don badly to save money; do things in the easiest, quickest or cheapest and not in the proper way"
+	},
+	{
+		"phrase" : "cut the mustard",
+		"desc" : "to succeed; to come up to expectations; adequate enough to compete or participate"
+	},
+	{
+		"phrase" : "devil's advocate",
+		"desc" : "to present a counter argument; in common parlance, a devil's advocate is someone who, given a certain point of view, takes a position they do not necessarily agree with (or simply an alternative position from the accepted norm), for the sake of debate or to explore the thought further."
+	},
+	{
+		"phrase" : "don't count your chickens before the eggs have hatched",
+		"desc" : "don't make plans for something thant might not happen"
+	},
+	{
+		"phrase" : "don't give up the day job",
+		"desc" : "used to tell somebody that they should continue doing what they are used to, rather than trying something new which they are likely to fail at"
+	},
+	{
+		"phrase" : "drastic times call for drastic measures",
+		"desc" : "when you are extremely desperate you need to take drastic actions"
+	},
+		{
+		"phrase" : "Elvis has left the building",
+		"desc" : "the show has come to an end. it's all over."
+	},
+	{
+		"phrase" : "every cloud has a silver lining",
+		"desc" : "be optimistic, even difficult times will lead to better days"
+	},
+	{
+		"phrase" : "far cry from",
+		"desc" : "very different from"
+	},
+	{
+		"phrase" : "give the benefit of the doubt",
+		"desc" : "believe someone's statement, without proof"
+	},
+	{
+		"phrase" : "hear it on the grapevine",
+		"desc" : "to hear rumors about something or someeone"
+	},
+	{
+		"phrase" : "hit the nail on the head",
+		"desc" : "do or say something exactly right"
+	},
+	{
+		"phrase" : "hit the sack / sheets / hay",
+		"desc" : "to go to bed"
+	},
+	{
+		"phrase" : "jump/climb on the bandwagon",
+		"desc" : "join a popular trend or activity"
+	},
+	{
+		"phrase" : "keep something at bay",
+		"desc" : "keep something away"
+	},
+	{
+		"phrase" : "last straw",
+		"desc" : "The final problem in a series of problems"
+	},
+	{
+		"phrase" : "let the cat out of the bag",
+		"desc" : "to share information that was previously concealed"
+	},
+	{
+		"phrase" : "not playing with a full deck",
+		"desc" : "someone who lacks intelligence"
+	},
+	{
+		"phrase" : "on the ball",
+		"desc" : "when someone understands the situation well"
+	},
+	{
+		"phrase" : "once in a blue moon",
+		"desc" : "happens very rarely"
+	},
+	{
+		"phrase" : "picture paints a thousand words",
+		"desc" : "a visual presentation is far more descriptive than words"
+	},
+	{
+		"phrase" : "piece of cake",
+		"desc" : "a job, task or other activity that is easy or simple"
+	},
+	{
+		"phrase" : "see eye to eye",
+		"desc" : "tow or more people agree on something"
+	},
+	{
+		"phrase" : "sit on the fence",
+		"desc" : "someoen doesn't want to choose or make a decision"
+	},
+	{
+		"phrase" : "speak of the devil",
+		"desc" : "used when the person you have just been talking about arrives"
+	},
+	{
+		"phrase" : "take sth with a grain of salt",
+		"desc" : "accept it but to maintain a degree of skepticism about its trhth"
+	},
+	{
+		"phrase" : "taste of your own medicine",
+		"desc" : "something happens to you, or is done to you, that you have done to someone else"
+	},
+	{
+		"phrase" : "to hear sth straight from the horse's mouth",
+		"desc" : "to hear sth from the authoritative or dependable source"
+	},
+	{
+		"phrase" : "whole(full) nine yards",
+		"desc" : "Everything; all of it."
+	},
+	{
+		"phrase" : "wouldn't be seen/caught dead sth",
+		"desc" : "would never like to do sth"
+	},
+	{
+		"phrase" : "your guess is as good as mine",
+		"desc" : "to have no idea, do not know the answer to a question."
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+		{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+		{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	},
+	{
+		"phrase" : "",
+		"desc" : ""
+	}
+]
